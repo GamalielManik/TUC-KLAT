@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+	<html lang="en">
+	  <head>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <title>Social media organizer</title>
+	    <link rel="preconnect" href="https://fonts.gstatic.com">
+		  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
+	    <style>
+	      *{
+	      	margin: 0;
+	        padding: 0;
+	        box-sizing: border-box;
+	        font-family: 'Caveat', cursive;;
+		}
+	      html,body{
+	        display: grid;
+	        height: 100%;
+	        width: 100%;
+	        place-items: center;
+	        background: linear-gradient(315deg, 
+#F05F57, #360940);
+	      }
+      footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: auto;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-bottom{
+    width: 100vw;
+    padding: 10px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  height: 80px;
+}
+
+	      .box{
+	      	border-radius: 20px;
+	      	padding: 6%;
+	      	background: rgba(255, 255, 255, 0.1);
+	        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+	        border-top: 1px solid rgba(255, 255, 255, 0.5);
+	        border-left: 1px solid rgba(255, 255, 255, 0.5);
+	        backdrop-filter: blur(5px);
+	        display: flex;
+	      }
+	      .box .button{
+	      position: relative;
+	        display: inline-block;
+	        height: 60px;
+	        width: 60px;
+	        float: left;
+	        margin:25px;
+	        overflow: hidden;
+	        background: #fff;
+	        border-radius: 50px;
+	        cursor: pointer;
+	        box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+	        transition: all 0.3s ease-out;
+	      }  
+	      .box .button .icon{
+
+	        display: inline-block;
+	        height: 60px;
+	        width: 60px;
+	        text-align: center;
+	        border-radius: 50px;
+	        box-sizing: border-box;
+	        line-height: 60px;
+	        transition: all 0.8s ease-out;
+	      }
+	      .box .button a{
+	        color: #360940;
+	      }
+	      .box .button:hover{
+	        width: 200px;
+	      }
+
+	    
+	      .box .button:hover .icon {
+	        background: #360940;
+	      }
+	      .box .button .icon i{
+	        font-size: 25px;
+	        line-height: 60px;
+	        transition: all 0.8s ease-out;
+	      }
+	      .box .button:hover .icon i{
+	        color: #fff;
+	      }
+	      .box .button span{
+	        font-size: 20px;
+	        font-weight: 500px;
+	        line-height: 60px;
+	        margin: 10px;
+	        transition: all 0.3s ease-out;
+	      }
+	      .box .button span{
+	        color: #4267B2;
+	      }
+	      @media screen and (max-width: 480px) {
+	      .box{
+	        flex-direction: column;
+	        }
+          
+	      }
+	    </style>
+	    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	  </head>
+	  <body>
+     <img src="TUC.png" alt="TUC" class="center">
+	    <div class="box">
+	      <div class="button">
+	        <div class="icon"><a href="#"><i class="fas fa-music"></i></a></div>
+	        <span><a href="https://drive.google.com/file/d/18SPx6gFeJsEpG9NVPeWDa1Ub7dF5KB7W/view?usp=sharing">When He Comes Again</a></span>
+	      </div>
+	      <div class="button">
+	        <div class="icon"><a href="#"><i class="fas fa-music"></i></a></div>
+	        <span><a href="https://drive.google.com/file/d/17dwN6DsPyAlFFJBfT6NL6H6A_2Vh4FAb/view?usp=sharing">Know My Heart</a></span>
+	      </div>
+	      <div class="button">
+	        <div class="icon"><a href="#"><i class="fas fa-music"></i></a></div>
+	        <span><a href="https://drive.google.com/file/d/182aUidrO5Q5qh73AU2I350jggrbbYnX_/view?usp=sharing">For All OF Life</a></span>
+	      </div>
+	      <div class="button">
+	        <div class="icon"><a href="#"><i class="fas fa-music"></i></a></div>
+	        <span><a href="https://drive.google.com/file/d/17_RDvt7q9Qp14vr1kZuMr6MHVHTHDqgy/view?usp=sharing">We Will Serve Him</a></span>
+	      </div>
+        <div class="button">
+	        <div class="icon"><a href="#"><i class="fas fa-music"></i></a></div>
+	        <span><a href="https://drive.google.com/file/d/18NhecVIMOH6uLA_Q77VrbbEPh5SU1-n2/view?usp=sharing">Cantate Domino</a></span>
+	      </div>
+	    </div>
+      <footer>
+        <div class="footer-bottom">
+            <p>copyright &copy;2021 The Unklab Choir. designed by <span>Gamalielmanix</span></p>
+        </div>
+    </footer>
+	  </body>
+	</html>
